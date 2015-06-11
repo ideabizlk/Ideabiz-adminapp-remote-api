@@ -18,6 +18,10 @@
         </license>
     </licenses>
 
+    <scm>
+        <url>https://github.com/ideabizlk/Ideabiz-adminapp-remote-api</url>
+    </scm>
+
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
@@ -69,7 +73,7 @@
         </dependency>
         <dependency>
             <groupId>lk.dialog.ideabiz.adminapp</groupId>
-            <artifactId>commonModel</artifactId>
+            <artifactId>common-models</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

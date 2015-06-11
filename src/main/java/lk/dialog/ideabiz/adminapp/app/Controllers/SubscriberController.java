@@ -1,10 +1,9 @@
 package lk.dialog.ideabiz.adminapp.app.Controllers;
 
 import com.google.gson.Gson;
-import lk.dialog.ideabiz.adminApp.commonModel.*;
-import lk.dialog.ideabiz.adminApp.commonModel.Enumarator.*;
+import lk.dialog.ideabiz.adminApp.commonModels.*;
+import lk.dialog.ideabiz.adminApp.commonModels.Enumarator.*;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
