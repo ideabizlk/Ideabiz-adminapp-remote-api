@@ -50,10 +50,12 @@ public class Util {
 
         IP = IP.toLowerCase();
         for (String str : IPs) {
-            if (str.trim().toLowerCase().contains(IP))
+            if (str.trim().toLowerCase().contains(IP)){
                 return true;
+            }
         }
-        return false;
+
+        throw  new Exception("IP not allowed");
 
     }
 

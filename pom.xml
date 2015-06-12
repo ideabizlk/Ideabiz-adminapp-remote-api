@@ -99,22 +99,22 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>8.1.8.v20121106</version>
-                <configuration>
-                    <connectors>
-                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                            <!--<port>8085</port>-->
-                            <port>8080</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                        </connector>
-                    </connectors>
-                    <stopKey>stop</stopKey>
-                    <stopPort>8089</stopPort>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.mortbay.jetty</groupId>-->
+                <!--<artifactId>jetty-maven-plugin</artifactId>-->
+                <!--<version>8.1.8.v20121106</version>-->
+                <!--<configuration>-->
+                    <!--<connectors>-->
+                        <!--<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">-->
+                            <!--&lt;!&ndash;<port>8085</port>&ndash;&gt;-->
+                            <!--<port>8080</port>-->
+                            <!--<maxIdleTime>60000</maxIdleTime>-->
+                        <!--</connector>-->
+                    <!--</connectors>-->
+                    <!--<stopKey>stop</stopKey>-->
+                    <!--<stopPort>8089</stopPort>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 </project>
